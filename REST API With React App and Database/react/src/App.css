@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(230, 250, 245);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(64, 0, 255);
+  margin: 1px;
+  padding: 1px;
+}
+
+.app-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:rgb(0, 73, 242);
+  text-decoration:none;
+  color:rgb(0, 204, 255);
+  line-height:1;
+  vertical-align: top;
+  font-size:1.3em;
+  font-weight:bold;
+  border-radius:3px;
+  margin: 2px;
+}
+
+.app-nav a:hover {
+  color:rgb(0, 73, 242);
+  background-color:rgb(0, 225, 255);
+}
+
+tr{
+  color: rgb(64, 0, 255);
+  background-color: rgb(220, 220, 220);
+  text-align: left;
+  padding: 10px;
+  margin: 2px;
+}
+
+th {
+  color: rgb(64, 0, 255);
+  text-align: left;
+  padding: 10px;
+  margin: 2px;
+  font-weight: bold;
+}
+
+td {
+  color:   rgb(64, 0, 255);
+  text-align: left;
+  padding: 10px;
+  margin: 2px;
+}
+
+.reg-field{
+  border: none;
+  
+}
+
+.reg-form{
+  background-color: #808080;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  color: rgb(0, 195, 255);
+}
+
+input{
+  background-color:  rgb(159, 225, 245);
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select{
+  background-color:  rgb(159, 225, 245);
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  background-color:  rgb(159, 225, 245);
+  color: #808080;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item-table-div{
+  align-items: middle;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  width: 100px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-group select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
